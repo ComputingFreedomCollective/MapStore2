@@ -8,7 +8,7 @@
 import React from 'react';
 
 import PropTypes from 'prop-types';
-import src from './attribution/geosolutions-brand-sm.png';
+import src from './attribution/cfc-brand-sm.png';
 import assign from 'object-assign';
 
 class Attribution extends React.Component {
@@ -33,21 +33,21 @@ class Attribution extends React.Component {
 }
 
 /**
- * Renders the logo of GeoSolutions in the {@link #plugins.NavMenu|NavMenu}
+ * Renders the logo of CFC in the {@link #plugins.NavMenu|NavMenu}
  * @name Attribution
  * @class
  * @memberof plugins
- * @prop {string} [label='GeoSolutions'] the tooltip for the logo
- * @prop {string} [href='https://www.geo-solutions.it/'] the URL to redirect on click
- * @prop {string} [src] URL of the logo image. By default the GeoSolutions logo.
+ * @prop {string} [label='CFC'] the tooltip for the logo
+ * @prop {string} [href='https://cfc.net.in/'] the URL to redirect on click
+ * @prop {string} [src] URL of the logo image. By default the CFC logo.
  */
 export default {
     AttributionPlugin: assign(Attribution, {
         NavMenu: {
             tool: (props) => ({
                 position: 0,
-                label: props.label || 'GeoSolutions',
-                href: props.href || 'https://www.geo-solutions.it/',
+                label: props.label || 'CFC',
+                href: props.href || 'https://cfc.net.in/',
                 img: props.src && <img className="customer-logo" src={props.src} height="30" /> || <img className="customer-logo" src={src} height="30" />,
                 logo: true
             })

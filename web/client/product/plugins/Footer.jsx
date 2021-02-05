@@ -9,7 +9,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-bootstrap';
-import src from "./attribution/geosolutions-brand.png";
+import src from "./attribution/cfc.png";
 import HTML from '../../components/I18N/HTML';
 
 /**
@@ -36,11 +36,11 @@ class Footer extends React.Component {
     static defaultProps = {
         logo: {
             src,
-            width: 140,
+            width: 90,
             height: 'auto',
-            href: 'http://www.geo-solutions.it/',
-            title: 'GeoSolutions',
-            alt: 'GeoSolutions'
+            href: 'https://cfc.net.in/',
+            title: 'CFC',
+            alt: 'CFC'
         }
     };
 

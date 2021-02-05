@@ -28,7 +28,7 @@ class HomeDescription extends React.Component {
     };
 
     static defaultProps = {
-        name: 'MapStore',
+        name: 'CFC Map Viewer',
         className: 'ms-home-description',
         style: {}
     };
